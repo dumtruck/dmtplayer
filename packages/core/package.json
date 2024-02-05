@@ -1,0 +1,40 @@
+{
+  "name": "@dumtrunk/dmtplayer",
+  "version": "1.27.1",
+  "description": "A danmaku video player can transport ones to the fantasy Isekai like the magic dumtrunk🌍🚚✨",
+  "main": "dist/DPlayer.min.js",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress",
+    "dev": "cross-env NODE_ENV=development webpack serve --config webpack/dev.config.js",
+    "test": "",
+    "format": "prettier \"**/*.{js,json,md}\" --write",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "url": "git+https://github.com/dumtrunk/dmtplayer.git",
+    "type": "git"
+  },
+  "keywords": [
+    "player",
+    "danmaku",
+    "video",
+    "html5"
+  ],
+  "author": "lonelyhentxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumtrunk/dmtplayer/issues"
+  },
+  "homepage": "https://github.com/dumtrunk/dmtplayer#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
