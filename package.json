@@ -1,5 +1,5 @@
 {
-  "name": "@dumtrunk/dmtplayer-workspace",
+  "name": "@dumtruck/dmtplayer-workspace",
   "private": true,
   "workspaces": [
     "./apps/*",

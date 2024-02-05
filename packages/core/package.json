@@ -1,7 +1,7 @@
 {
-  "name": "@dumtrunk/dmtplayer",
+  "name": "@dumtruck/dmtplayer",
   "version": "1.27.1",
-  "description": "A danmaku video player can transport ones to the fantasy Isekai like the magic dumtrunk🌍🚚✨",
+  "description": "A danmaku video player can transport ones to the fantasy Isekai like the magic dumtruck🌍🚚✨",
   "main": "dist/DPlayer.min.js",
   "scripts": {
     "start": "npm run dev",
@@ -20,7 +20,7 @@
     "dist"
   ],
   "repository": {
-    "url": "git+https://github.com/dumtrunk/dmtplayer.git",
+    "url": "git+https://github.com/dumtruck/dmtplayer.git",
     "type": "git"
   },
   "keywords": [
@@ -32,9 +32,9 @@
   "author": "lonelyhentxi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dumtrunk/dmtplayer/issues"
+    "url": "https://github.com/dumtruck/dmtplayer/issues"
   },
-  "homepage": "https://github.com/dumtrunk/dmtplayer#readme",
+  "homepage": "https://github.com/dumtruck/dmtplayer#readme",
   "devDependencies": {},
   "dependencies": {}
 }
