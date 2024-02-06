@@ -1,20 +1,12 @@
 {
-  "name": "@dumtruck/dmtplayer",
-  "version": "1.27.1",
+  "name": "@dumtruck/media",
+  "version": "0.0.1",
   "description": "A danmaku video player can transport ones to the fantasy Isekai like the magic dumtruck🌍🚚✨",
   "main": "dist/DPlayer.min.js",
+  "type": "module",
   "scripts": {
-    "start": "npm run dev",
-    "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress",
-    "dev": "cross-env NODE_ENV=development webpack serve --config webpack/dev.config.js",
-    "test": "",
-    "format": "prettier \"**/*.{js,json,md}\" --write",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "build": "tsup",
+    "dev": "tsup --watch"
   },
   "files": [
     "dist"
@@ -35,6 +27,14 @@
     "url": "https://github.com/dumtruck/dmtplayer/issues"
   },
   "homepage": "https://github.com/dumtruck/dmtplayer#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "mux.js": "^6.3.0",
+    "rxjs": "^7.8.1",
+    "wasm-feature-detect": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }

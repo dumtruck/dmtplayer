@@ -1,5 +1,5 @@
 {
-    "name": "@dumtruck/dmtplayer",
+    "name": "@dumtruck/player",
     "version": "1.27.1",
     "description": "A danmaku video player can transport ones to the fantasy Isekai like the magic dumtruck🌍🚚✨",
     "main": "dist/DPlayer.min.js",
@@ -10,8 +10,7 @@
         "test": "",
         "format": "prettier \"**/*.{js,json,md}\" --write",
         "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs",
-        "prepare": "husky install"
+        "docs:build": "vuepress build docs"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
@@ -59,7 +58,6 @@
         "postcss-preset-env": "^9.1.1",
         "prettier": "^3.0.1",
         "prettier-check": "^2.0.0",
-        "pretty-quick": "^3.0.0",
         "strip-loader": "^0.1.2",
         "style-loader": "^3.3.3",
         "svg-inline-loader": "0.8.2",
