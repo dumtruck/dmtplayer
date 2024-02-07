@@ -1,2 +1,11 @@
 {
+  "[c]": {
+    "editor.formatOnSave": false
+  },
+  "terminal.integrated.shellIntegration.enabled": true,
+  "files.associations": {
+    ".env*": "dotenv",
+    "ffmpeg.h": "c",
+    "cmdutils.h": "c"
+  }
 }
